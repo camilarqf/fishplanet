@@ -17,7 +17,8 @@
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/grid.css" rel="stylesheet">
     <link href="./css/style-raw.css" rel="stylesheet">
-    <title>FishPlanet - Aquários Personalizados</title>
+    <link href="./css/sobre.css" rel="stylesheet">
+    <title>FishPlanet</title>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
             <a href="index.html" class="grid-4"> <img src="./img/logo_03.png" alt="Logo FishPlanet"></a>
             <nav class="menu grid-12">
                 <ul>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="sobre.html" class="menu_ativo">Sobre</a></li>
                     <li><a href="peixes.html">Peixes</a></li>
                     <li><a href="portfolio.html">Portfólio</a></li>
                     <li><a href="contato.html">Contato</a></li>
@@ -38,67 +39,44 @@
     </header>
     <!--header-->
 
-    <section class="introducao">
+    <section class="introducao-interna intro-sobre">
         <div class="container">
-            <h1>Aquários Personalizados</h1>
-            <blockquote class="quote_externo">
-                <p>“A beleza ideal está na simplicidade<br>
-                    calma e serena”</p>
-                <cite>Johann Goethe</cite>
-            </blockquote>
-            <!--quote-externo-->
-            <a class="btn" href="peixe.html">Orçamento</a>
+            <h1>Sobre</h1>
+            <p>Conheça mais sobre a FishPlanet</p>
         </div>
         <!--container-->
-
     </section>
-    <!--introducao-->
+    <!--introducao-interna intro-sobre-->
 
     <section class="container">
-        <h2 class="subtitulo">Peixes</h2>
-        <ul class="peixe_lista">
-            <li class="grid-8">
-                <div>
-                    <img src="./img/peixed_01.jpg" alt="peixes dulcícolas">
-                </div>
-                <h3>Peixes Dulcícolas</h3>
-            </li>
-            <li class="grid-8">
-                <div>
-                    <img src="./img/peixed_02.jpg" alt="peixes dulcícolas">
-                </div>
-                <h3>Peixes Marinhos</h3>
-            </li>
-            <!--grid-8-->
-        </ul>
-        <!--peixe_lista-->
-        <div class="call">
-            <p>Clique aqui e conheça nosso catálogo</p>
-            <a href="peixe.html" class="btn btn-azul">Peixes</a>
-        </div>
-        <!--call-->
-    </section>
+        <div class="missao-sobre grid-10">
+            <h2 class="subtitulo-interno">História, Missão e Visão</h2>
+            <p>Lorem ipsum aliquet sollicitudin suspendisse lobortis iaculis elementum morbi habitant, neque ut vitae
+                dictum ad metus curae ultrices quisque, elit nullam eget nullam at est quis lectus.</p>
 
-    <section class="portfolio">
-        <div class="container">
-            <h2 class="subtitulo subtitulo-azul">Portfólio</h2>
+            <p>Lorem ipsum aliquet sollicitudin suspendisse lobortis iaculis elementum morbi habitant, neque ut vitae
+                dictum ad metus curae ultrices quisque, elit nullam eget nullam at est quis lectus. </p>
+        </div>
+        <!--missao-sobre grid-10-->
+
+        <div class="valores-sobre grid-6">
+            <h2 class="subtitulo-interno">Valores</h2>
             <ul>
-                <li class="grid-8"><img src="./img/portfolio/personal_01.jpg"></li>
-                <li class="grid-8"><img src="./img/portfolio/personal_02.jpg"></li>
-                <li class="grid-16"><img src="./img/portfolio/personal_03.jpg"> </li>
+                <li>- Qualidade no processo com</li>
+                <li> - Foco no cliente sem perder a</li>
+                <li> - Diversao, preservando a</li>
+                <li> - Natureza com sustentabilidade</li>
             </ul>
-            <div class="call">
-                <p>Clique aqui e conheça nossos projetos</p>
-                <a href="portfolio.html" class="btn">Portfólio</a>
-            </div>
-            <!--call-->
-        </div>
-        <!--container--->
+        </div> <!--valores-sobre grid-6-->
     </section>
-    <!--portfolio-->
+    <!--container-->
 
-    <section class="container qualidade">
-        <h2 class="subtitulo">Qualidade</h2>
+    <section class="container equipe">
+        <img src="./img/sobre/equipe.jpg"  class="grid-16" alt="equipe fishplanet">
+    </section><!--container equipe-->
+
+    <section class="qualidade-sobre container">
+        <h2 class="subtitulo-interno">Qualidade</h2>
         <img src="./img/logo_02.png" alt="logo fishplanet">
         <ul>
             <li class="grid-1-3">
@@ -114,14 +92,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec condimentum odio.</p>
             </li>
         </ul>
-
-        <div class="call">
-            <p>Conheça mais sobre a gente</p>
-            <a href="sobre.html" class="btn btn-azul">Sobre</a>
-        </div>
-        <!--call-->
-    </section>
-    <!--container-->
+    </section><!--qualidade-sobre container-->
 
     <section class="quebra">
         <div class="container">
@@ -176,7 +147,8 @@
         <div class="copy">
             <div class="container">
                 <p class="grid-16">FishPlanet 2019 - Alguns direitos reservados </p>
-            </div><!--container-->
+            </div>
+            <!--container-->
         </div>
         <!--copy-->
     </footer>
