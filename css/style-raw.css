@@ -1,0 +1,120 @@
+/*Estilos gerais*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.btn{
+    border: 3px solid #2bb3c0;
+    padding: 10px 20px;
+    background: none;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #2bb3c0;
+    transition: all .5s ease;
+    
+}
+
+.btn:hover{
+    color: white;
+    border-color: white;
+}
+
+/*Estilos header*/
+
+.header{
+    background-color: #161c2e;
+    padding: 15px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+.menu {
+    text-align: right;
+}
+
+.menu ul li{  
+   display: inline-block;
+   margin-left: 25px;
+   margin-top: 20px;
+}
+
+.menu ul li a{
+    letter-spacing: .1em;
+   text-transform: uppercase;
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.menu ul li a:hover{
+    color: #2bb3c0;
+}
+
+/* Introdução */
+
+.introducao{
+    width: 100%;
+    background: url("../img/bg-home.jpg");
+    text-align: center;
+    background-size: cover;
+    margin-top: 96px;
+    height: 420px;
+    padding-top: 70px;
+}
+
+.introducao h1{
+    color: white;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: .1em;
+    font-weight: bold;
+    text-transform: uppercase;  
+    margin-bottom: 40px;
+}
+
+ .quote_externo p:before, .quote_externo p:after{
+    content: "";
+    background-color: white;
+    width: 50px;
+    height: 3px;
+    display: block;
+    margin: 10px auto;
+}
+
+.quote_externo{
+    margin-bottom: 40px;
+}
+
+.quote_externo p{
+    font-style: italic;
+    color: white;
+    margin: 0 auto;
+    width: 300px;   
+    padding: 10px;
+}
+
+.quote_externo cite{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-style: normal;
+  
+}
