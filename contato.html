@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Conheça mais sobre a história da FishPlanet">
+    <meta name="description"
+        content="Entre em contato com a FishPlanet telefone FishPlanet - (61) 3456-0000, email: contato@fisplanet.com">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="FishPlanet - Sobre nós">
-    <meta property="og:description" content="Conheça mais sobre a história da FishPlanet">
-    <meta property="og:url" content="htpp://camilarqf/fishplanet.github.io">
+    <meta property="og:title" content="FishPlanet - (61) 3456-0000">
+    <meta property="og:description"
+        content="Entre em contato com a FishPlanet telefone FishPlanet - (61) 3456-0000, email: contato@fisplanet.com">
+    <meta property="og:url" content="htpp://camilarqf/fishplanet.github.io/contato.html">
     <meta property="og:image" content="htpp://camilarqf/fishplanet.github.io/img/og-image.png">
 
     <link href="./css/normalize.css" rel="stylesheet">
     <link href="./css/reset.css" rel="stylesheet">
     <link href="./css/grid.css" rel="stylesheet">
     <link href="./css/style-raw.css" rel="stylesheet">
-    <link href="./css/sobre.css" rel="stylesheet">
-    <title>FishPlanet - Sobre nós</title>
+    <link href="./css/contato.css" rel="stylesheet">
+    <title>FishPlanet - (61) 3456-0000</title>
 </head>
 
 <body>
@@ -27,10 +29,10 @@
             <a href="index.html" class="grid-4"> <img src="./img/logo_03.png" alt="Logo FishPlanet"></a>
             <nav class="menu grid-12">
                 <ul>
-                    <li><a href="sobre.html" class="menu_ativo">Sobre</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="peixes.html">Peixes</a></li>
                     <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="contato.html" class="menu_ativo">Contato</a></li>
                 </ul>
             </nav>
             <!--menu grid-12-->
@@ -39,60 +41,62 @@
     </header>
     <!--header-->
 
-    <section class="introducao-interna intro-sobre">
+    <section class="introducao-interna intro-contato">
         <div class="container">
-            <h1>Sobre</h1>
-            <p>Conheça mais sobre a FishPlanet</p>
+            <h1>Contato</h1>
+            <p>Entre em contato com a gente</p>
         </div>
         <!--container-->
     </section>
-    <!--introducao-interna intro-sobre-->
+    <!--introducao-interna intro-contato-->
 
-    <section class="container">
-        <div class="missao-sobre grid-10">
-            <h2 class="subtitulo-interno">História, Missão e Visão</h2>
-            <p>Lorem ipsum aliquet sollicitudin suspendisse lobortis iaculis elementum morbi habitant, neque ut vitae
-                dictum ad metus curae ultrices quisque, elit nullam eget nullam at est quis lectus.</p>
+    <section class="container contato-form">
+        <form action="enviar.php" method="post" name="form" class="grid-8">
+            <label for="nome">Nome</label>
+            <input type="text" id="e-mail" name="e-mail">
+            <label for="nome">E-mail</label>
+            <input type="text" id="e-mail" name="e-mail">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+            <button type="submit" id="enviar" name="enviar" class="btn btn-azul">Enviar</button>
+        </form>
 
-            <p>Lorem ipsum aliquet sollicitudin suspendisse lobortis iaculis elementum morbi habitant, neque ut vitae
-                dictum ad metus curae ultrices quisque, elit nullam eget nullam at est quis lectus. </p>
+        <div class="contato-dados grid-8">
+            <div>
+                <h3>Dados</h3>
+                <ul>
+                    <li>(61) 3456-0000</li>
+                    <li>orcamento@fisplanet.com</li>
+                    <li>Rua Ali Perto - Brasília</li>
+                    <li>Brasília - DF - Brasil</li>
+                </ul>
+
+            </div>
         </div>
-        <!--missao-sobre grid-10-->
 
-        <div class="valores-sobre grid-6">
-            <h2 class="subtitulo-interno">Valores</h2>
-            <ul>
-                <li>- Qualidade no processo com</li>
-                <li> - Foco no cliente sem perder a</li>
-                <li> - Diversao, preservando a</li>
-                <li> - Natureza com sustentabilidade</li>
-            </ul>
-        </div> <!--valores-sobre grid-6-->
+        <div class="redes_sociais redes-azul">
+            <div class=" grid-8">
+                <h3>Redes sociais</h3>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank"><img src="./img/contato/icone_fb.png"></a></li>
+                    <li><a href="https://instagram.com" target="_blank"><img src="./img/contato/icone_insta.png"></a>
+                    </li>
+                    <li><a href="https://twitter.com" target="_blank"><img src="./img/contato/icone_tt.png"></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!--redes_sociais grid-8-->
+
+        <!--contato-orcamento-->
     </section>
-    <!--container-->
 
-    <section class="container equipe">
-        <img src="./img/sobre/equipe.jpg"  class="grid-16" alt="equipe fishplanet">
-    </section><!--container equipe-->
+    <section class="mapa container">
+        <div class="grid-16"><img src="./img/contato/mapa.jpg" alt="localização-mapa"></div>
 
-    <section class="qualidade-sobre container">
-        <h2 class="subtitulo-interno">Qualidade</h2>
-        <img src="./img/logo_02.png" alt="logo fishplanet">
-        <ul>
-            <li class="grid-1-3">
-                <h3>Beleza</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec condimentum odio.</p>
-            </li>
-            <li class="grid-1-3">
-                <h3>Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec condimentum odio.</p>
-            </li>
-            <li class="grid-1-3">
-                <h3>Sofisticação</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec condimentum odio.</p>
-            </li>
-        </ul>
-    </section><!--qualidade-sobre container-->
+    </section>
 
     <section class="quebra">
         <div class="container">

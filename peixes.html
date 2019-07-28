@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Veja o catálogo completo de peixes da FishPlanet">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="FishPlanet - Catálogo de Peixes">
+    <meta property="og:description" content="Veja o catálogo completo de peixes da FishPlanet">
+    <meta property="og:url" content="htpp://camilarqf/fishplanet.github.io/peixes.html">
+    <meta property="og:image" content="htpp://camilarqf/fishplanet.github.io/img/og-image.png">
+
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/grid.css" rel="stylesheet">
+    <link href="./css/style-raw.css" rel="stylesheet">
+    <link href="./css/peixe.css" rel="stylesheet">
+    <title>FishPlanet - Catálogo de Peixes</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4"> <img src="./img/logo_03.png" alt="Logo FishPlanet"></a>
+            <nav class="menu grid-12">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="peixes.html" class="menu_ativo">Peixes</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <!--menu grid-12-->
+        </div>
+        <!--container-->
+    </header>
+    <!--header-->
+
+    <section class="introducao-interna intro-peixe">
+        <div class="container">
+            <h1>Peixes</h1>
+            <p>Veja nosso catálogo de peixes</p>
+        </div>
+        <!--container-->
+    </section>
+    <!--introducao-interna intro-peixe-->
+
+    <section class="peixe_dulc container">
+        <h2 class="subtitulo-interno">Peixes Dulcícolas</h2>
+        <ul class="lista_peixes">
+            <li class="grid-1-3"><img src="./img/peixes/ducic_01.jpg" alt="Peixe agulhinha">
+                <h3>Peixe Agulhinha</h3>
+            </li>
+            <li class="grid-1-3"><img src="./img/peixes/ducic_02.jpg" alt="Peixe ancistrus">
+                <h3>Ancistrus</h3>
+            </li>
+            <li class="grid-1-3"><img src="./img/peixes/ducic_03.jpg" alt="Peixe coridora">
+                <h3>Coridora</h3>
+            </li>
+            <li class="grid-8"><img src="./img/peixes/ducic_04.jpg" alt="Peixe dourado">
+                <h3>Peixe dourado</h3>
+            </li>
+            <li class="grid-8"><img src="./img/peixes/ducic_05.jpg" alt="Leleupi">
+                <h3>Leleupi</h3>
+            </li>
+        </ul>
+        <!--lista_peixes-->
+    </section>
+    <!--peixe_dulc container-->
+
+    <section class="peixe_marinho">
+        <div class="container">
+            <h2 class="subtitulo-interno">Peixes Marinhos</h2>
+            <ul class="lista_peixes_02">
+                <li class="grid-1-3"><img src="./img/peixes/mar_01.jpg" alt="Peixe gatilho">
+                    <h3>Peixe Gatilho</h3>
+                </li>
+                <li class="grid-1-3"><img src="./img/peixes/mar_02.jpg" alt="Peixe mandarim">
+                    <h3>Peixe Mandarim</h3>
+                </li>
+                <li class="grid-1-3"><img src="./img/peixes/mar_03.jpg" alt="Monodáctilo">
+                    <h3>Monodáctilo</h3>
+                </li>
+            </ul>
+            <!--lista_peixes_02-->
+        </div>
+        <!--container-->
+
+    </section>
+    <!--peixe_marinho-->
+
+    <section class="container orcamento">
+        <h2 class="subtitulo-interno">Orçamento</h2>
+        <form action="enviar.php" method="post" name="form" class="grid-8">
+            <label for="nome">Nome</label>
+            <input type="text" id="e-mail" name="e-mail">
+            <label for="nome">E-mail</label>
+            <input type="text" id="e-mail" name="e-mail">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone">
+            <label for="telefone">Especificações</label>
+            <textarea name="espec" id="espec"></textarea>
+            <button type="submit" id="enviar" name="enviar" class="btn btn-azul">Enviar</button>
+        </form>
+
+        <div class="contato-orcamento">
+            <div class="grid-8">
+                <h3>Dados</h3>
+                <ul>
+                    <li>(61) 3456-0000</li>
+                    <li>orcamento@fisplanet.com</li>
+                </ul>
+
+                <h3>Monte seu Aquário</h3>
+                <p>Escolha suas especificações:</p>
+            </div>
+
+            <div class="lista-espec grid-8">
+                <ul class="lista-espec">
+                    <li> - Peixes</li>
+                    <li> - Estilo</li>
+                    <li> - Medidas</li>
+                    <li> - Acessórios</li>
+                    <li> - E Outros</li>
+                </ul>
+            </div>
+            <!--lista-espec grid-8-->
+        </div>
+        <!--contato-orcamento-->
+    </section>
+    <!--container orcamento-->
+
+    <section class="quebra">
+        <div class="container">
+            <blockquote class="quote_externo">
+                <p>“A simplicidade é o último
+                    grau de sofisticação”.</p>
+                <cite>Leonardo da Vinci</cite>
+            </blockquote>
+            <!--quote-externo---->
+        </div>
+        <!--container-->
+    </section>
+    <!--quebra-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="nossa_historia grid-8">
+
+                <h3>Nossa História</h3>
+                <p>Lorem ipsum massa nisi pharetra sapien pretium eleifend magna quisque, lobortis mollis enim
+                    sodales pretium ut dapibus sapien semper, tristique primis hac dictumst iaculis rutrum nam
+                    orci.
+                </p>
+
+            </div>
+            <!--nossa_historia grid-8-->
+
+            <div class="contato grid-4">
+                <h3>Contato</h3>
+                <ul>
+                    <li>- contato@fisplanet.com</li>
+                    <li> - (61) 3456-0000</li>
+                    <li> - Brasília -DF</li>
+                </ul>
+            </div>
+            <!--contato grid-4-->
+
+            <div class="redes_sociais grid-4">
+                <h3>Redes sociais</h3>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank"><img src="./img/icone_fb.png"></a></li>
+                    <li><a href="https://instagram.com" target="_blank"><img src="./img/icone_insta.png"></a>
+                    </li>
+                    <li><a href="https://twitter.com" target="_blank"><img src="./img/icone_tt.png"></a></li>
+                </ul>
+            </div>
+            <!--redes_sociais grid-4-->
+            </ul>
+
+        </div>
+        <!--container-->
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">FishPlanet 2019 - Alguns direitos reservados </p>
+            </div>
+            <!--container-->
+        </div>
+        <!--copy-->
+    </footer>
+    <!--footer-->
+</body>
+
+</html>
