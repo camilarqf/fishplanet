@@ -112,80 +112,100 @@
     .qualidade:after {
         background-image: none;
     }
-
     /*menu ativo*/
     ul li a.menu_ativo {
         border-color: #2bb3c0;
     }
-    
     ul li a.menu_ativo:hover {
         border-color: white;
     }
-
     /*subtitulo*/
-    .subtitulo-interno:after{
+    .subtitulo-interno:after {
         width: 40px;
     }
-
     /*sobre*/
-    .intro-sobre{
+    .intro-sobre {
         margin-top: 0;
+        background: url("../img/sobre/bg-sobre-mobile.jpg");
     }
-
-    .missao-sobre h2, .valores-sobre h2{
+    .missao-sobre h2, .valores-sobre h2 {
         font-size: 18px;
     }
-
-    .missao-sobre p{
+    .missao-sobre p {
         font-size: 14px;
     }
-
-    .valores-sobre ul li{
-        font-size:14px;
+    .valores-sobre ul li {
+        font-size: 14px;
     }
-
-    .qualidade-sobre:after{
+    .equipe img {
+        margin: 0 auto;
+    }
+    .qualidade-sobre:after {
         background: none;
     }
-
-    .qualidade-sobre ul li{
+    .qualidade-sobre ul li {
         margin: 0 0 20px 0;
     }
-
     /*peixes*/
-
-    .intro-peixe{
+    .intro-peixe {
         margin-top: 0;
+        background: url("../img/peixes/bg-peixes-mobile2.jpg") no-repeat center;
     }
-
-    .lista_peixes li, .lista_peixes_02 li{
+    .lista_peixes li, .lista_peixes_02 li {
         margin: 0 0 20px 0;
     }
-
-    .orcamento form{
+    .orcamento form {
         padding: 0px;
         padding-top: 40px;
         margin: 0 auto;
     }
-
-    .contato-orcamento div{
+    .contato-orcamento div {
         margin: 0 auto;
-       
     }
-    .contato-orcamento ul li{
+    .contato-orcamento ul li {
         font-size: 14px;
     }
-    .contato-orcamento h3{
+    .contato-orcamento h3 {
         padding-top: 20px;
     }
-    .lista-espec ul li{
+    .lista-espec ul li {
         padding: 10px;
         font-size: 14px;
-        
     }
-    .lista-espec ul li:nth-child(odd){
+    .lista-espec ul li:nth-child(odd) {
         background-color: #161c2e;
         color: white;
     }
-} 
-    
+
+    /* portfólio */
+    .intro-portfolio {
+        background: url("../img/portfolio/bg-portfolio-mobile2.jpg") no-repeat center;
+        margin-top: 0;
+    }
+    .portfolio-lista li{
+        margin: 0 0 20px 0;
+    }
+
+    /*contato*/
+    .intro-contato{
+        background: url("../img/contato/bg-contato-mobile2.jpg") no-repeat center;
+        margin-top: 0px;
+    }
+
+    .contato-form form{
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+    .contato-dados{
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+
+    .redes_sociais.redes-azul div {
+        margin: 0 auto;
+    }
+
+    .mapa div {
+        margin: 40px auto 20px auto;
+    }
+}
