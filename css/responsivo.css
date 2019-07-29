@@ -182,7 +182,7 @@
         background: url("../img/portfolio/bg-portfolio-mobile2.jpg") no-repeat center;
         margin-top: 0;
     }
-    .portfolio-lista li{
+    .portfolio-lista li div img{
         margin: 0 0 20px 0;
     }
 
